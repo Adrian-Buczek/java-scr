@@ -1,0 +1,76 @@
+document.querySelector('.title').textContent = "DOM Training Arena"
+
+document.querySelector('.nav-item a').textContent = "Start"
+
+const menu = document.querySelectorAll('.menu-list li') 
+for (let element of menu){
+  console.log(element.textContent)
+}
+
+const cardh = document.querySelector('.card.highlight')
+cardh.classList.add('active')
+
+const cardd = document.querySelector('.card .card-header')
+cardd.textContent = "Zmieniona karta"
+
+const infot = document.querySelector('.info-text')
+infot.textContent = "kolorowe sny na bawełnie"
+
+const inpnam = document.querySelector('input[name="name"]')
+inpnam.value = "Jan"
+
+const select = document.querySelector('.select')
+select.value = "de"
+
+const ckb = document.querySelector('.checkbox')
+ckb.checked = true  
+
+const detx = document.querySelector('.deep-text')
+detx.classList.add('highlight')
+
+ const newli = document.createElement('li')
+ newli.textContent = 'Nowy element'
+ document.querySelector('#dynamic-list').appendChild(newli)
+
+const newmenu1 = document.createElement('li')
+const newmenu2 = document.createElement('li')
+const newmenu3 = document.createElement('li')
+newmenu1.textContent = 'kolejny element1'
+newmenu2.textContent = 'kolejny element2'
+newmenu3.textContent = 'kolejny element3'
+document.querySelector('.menu-list').appendChild(newmenu1)
+document.querySelector('.menu-list').appendChild(newmenu2)
+document.querySelector('.menu-list').appendChild(newmenu3)
+
+const newdiv = document.createElement('div')
+newdiv.classList.add('card')
+const cardss = document.querySelector('.cards-section')
+cardss.appendChild(newdiv)
+
+const newbox = document.createElement('div')
+newbox.classList.add('box')
+const bxcon = document.querySelector('.boxes-container')
+bxcon.appendChild(newbox)
+
+const newp = document.createElement('p')
+newp.textContent = 'ciulu muju dubu juju od dubaju lecimy bo już czas'
+const dyna = document.querySelector('.dynamic-area')
+dyna.appendChild(newp)
+
+const boks = document.createElement('div')
+boks.classList.add('box')
+boks.textContent = 'boks i bacznosc'
+const tamboks = document.querySelector('#insertion-container')
+tamboks.appendChild(boks)
+tamboks.insertBefore(boks ,tamboks.firstChild)
+
+const newwli = document.createElement('li')
+newwli.textContent = 'bombelkowooooo'
+const dynamo = document.querySelector('#dynamic-list')
+dynamo.appendChild(newwli)
+dynamo.insertBefore(newwli, dynamo.firstChild)
+
+do zad 17 dalje 18
+
+
+
