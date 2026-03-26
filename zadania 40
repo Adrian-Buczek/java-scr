@@ -72,5 +72,21 @@ dynamo.insertBefore(newwli, dynamo.firstChild)
 
 do zad 17 dalje 18
 
+const spann = document.querySelectorAll('.card-header')
+for(let element of spann){
+  const newspan = document.createElement('span')
+  newspan.textContent = ' spannnnnnnnnn'
+  element.appendChild(newspan)
+}
+
+const newwp = document.createElement('p')
+newwp.textContent = 'nowe ppppppp'
+const detai = document.querySelector('.info-box')
+detai.appendChild(newwp)
+
+const buton = document.createElement('button')
+buton.textContent = 'wcisnij mnie'
+const plgr = document.querySelector('.playground')
+plgr.appendChild(buton)
 
 
