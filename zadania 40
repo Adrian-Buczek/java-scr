@@ -88,5 +88,34 @@ const buton = document.createElement('button')
 buton.textContent = 'wcisnij mnie'
 const plgr = document.querySelector('.playground')
 plgr.appendChild(buton)
-
+//21
+const remove = document.querySelectorAll('.removable')
+for(let element of remove) {
+  element.remove();
+}
+//22
+const dynamicz = document.querySelector('#dynamic-list')
+dynamicz.lastChild.remove();
+//23
+const kartua = document.querySelector('.card[data-id="1"]')
+kartua.remove();
+//24
+const insboks = document.querySelectorAll('#insertion-container > .box')
+for(let element of insboks){
+  element.remove()
+}
+//25
+const detale = document.querySelector('details')
+detale.remove()
+//26
+const inputyy = document.querySelectorAll('input')
+for(let element of inputyy)
+console.log(element.name)
+//27
+const newemail = document.querySelector('.input-email')
+newemail.name = 'user-email'
+//28
+const nowyatr = document.querySelector('.card.highlight')
+nowyatr.setAttribute("data-test", "123")
+//29
 
