@@ -118,4 +118,28 @@ newemail.name = 'user-email'
 const nowyatr = document.querySelector('.card.highlight')
 nowyatr.setAttribute("data-test", "123")
 //29
-
+const menuuu = document.querySelectorAll('.menu-list li')
+for (let element of menuuu) {
+  element.textContent = 'Zmieniono'
+}
+//30
+const kartau = document.querySelector('.card')
+for(let element of kartau) 
+element.classList.add('processed')
+element.setAttribute('data-status', 'done')
+//31
+const kprzycisk = document.querySelector('#add-item-btn')
+const inpouty = document.querySelector('#item-input').value
+const dynamiczny = document.querySelector('#dynamic-list')
+kprzycisk.addEventListener('click', klikniecie)
+function klikniecie(event) {
+  const nli = document.createElement('li')
+  const inpouty = document.querySelector('#item-input').value
+  nli.textContent = inpouty
+  dynamiczny.appendChild(nli)
+} 
+//32
+inpouty.addEventListener(input, pobor)
+function pobor(event){
+  console.log(inpoty.value)
+}
