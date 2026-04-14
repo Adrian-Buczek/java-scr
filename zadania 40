@@ -129,7 +129,7 @@ element.classList.add('processed')
 element.setAttribute('data-status', 'done')
 //31
 const kprzycisk = document.querySelector('#add-item-btn')
-const inpouty = document.querySelector('#item-input').value
+const inpouty = document.querySelector('#item-input')
 const dynamiczny = document.querySelector('#dynamic-list')
 kprzycisk.addEventListener('click', klikniecie)
 function klikniecie(event) {
@@ -139,7 +139,9 @@ function klikniecie(event) {
   dynamiczny.appendChild(nli)
 } 
 //32
-inpouty.addEventListener(input, pobor)
+inpouty.addEventListener('input', pobor)
 function pobor(event){
+  console.log(inpouty.value)
+}
   console.log(inpoty.value)
 }
