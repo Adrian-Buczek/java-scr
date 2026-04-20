@@ -59,3 +59,9 @@ newtd3.appendChild(newbtt)
 newtr.appendChild(newtd3)
 tabelaa.appendChild(newtr)
 //19
+const forma = document.querySelector('#forms-demo');
+const nowyp = document.createElement('p');
+nowyp.textContent = 'Paragraf z ostrzyżeniem!!';
+forma.appendChild(nowyp);
+forma.insertBefore(nowyp, forma.firstChild);
+//20
