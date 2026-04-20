@@ -1,33 +1,43 @@
 //1
-const heder = document.querySelector('#main-header')
+const heder = document.querySelector('#main-header');
 //2
-const wli = document.querySelectorAll('nav li')
+const wli = document.querySelectorAll('nav li');
 //3
-const pprzycisk = document.querySelector('.delete-trigger')
+const pprzycisk = document.querySelector('.delete-trigger');
 //4
-const sek = document.querySelectorAll('#content-area section')
+const sek = document.querySelectorAll('#content-area section');
 //5
-const dsec = data.getAttribute('data-secret')
+const dsec = document.querySelector('div[data-secret]');
 //6
-const start = start.getAttribute('data-link')
+const start = document.querySelector('a[data-link]');
+const kstart = start.getAttribute('[data-link]')
 //7
-const triprz = document.querySelector('#trigger-btn')
-triprz.closest(".level-1")
+const triprz = document.querySelector('#trigger-btn');
+triprz.closest(".level-1");
 //8
-const wierzsze = document.querySelectorAll('tbody tr')
+const wierzsze = document.querySelectorAll('tbody tr');
 //9
-const figa = document.querySelector('#main-image').nextElementSibling
+const figa = document.querySelector('#main-image').nextElementSibling;
 //10
-const  chbox = document.querySelectorAll('fieldset:nth-child(2) input[type="checkbox"]')
+const  chbox = document.querySelectorAll('fieldset:nth-child(2) input[type="checkbox"]');
 //11
-var uname = document.getElementById('#username').parentElement
+var uname = document.querySelector('#username').parentElement;
 //12
-const notw = document.querySelector('.notification-wrapper')
-const notw2 = notw.children
+const notw = document.querySelector('.notification-wrapper');
+const notw2 = notw.children;
 //13
-const hh = document.querySelector('h1').textContent
+const hh = document.querySelector('h1').textContent;
 //14
-const ostatni = document.querySelector('#notification-list li:last-child')
+const ostatni = document.querySelector('#notification-list li:last-child');
 //15
-const elementy =document.querySelectorAll('.nest.level-2')
+const elementy =document.querySelectorAll('.nest.level-2');
 //16
+const nowyli = document.createElement('li');
+const naw = document.querySelector('.nav-list');
+nowyli.textContent = 'nowyliiii';
+naw.appendChild(nowyli);
+//17
+const newbt = document.createElement('button')
+newbt.textContent = 'Logowanie'
+heder.appendChild(newbt)
+//18
