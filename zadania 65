@@ -65,3 +65,14 @@ nowyp.textContent = 'Paragraf z ostrzyżeniem!!';
 forma.appendChild(nowyp);
 forma.insertBefore(nowyp, forma.firstChild);
 //20
+const skilllist = document.querySelector('#skill-list')
+const kolejnyli = document.createElement('li')
+kolejnyli.textContent = 'bakłażanek'
+skilllist.appendChild(kolejnyli)
+const kolejnyli2 = document.createElement('li')
+kolejnyli2.textContent = 'bakłażanek2'
+skilllist.appendChild(kolejnyli2)
+const kolejnyli3 = document.createElement('li')
+kolejnyli3.textContent = 'bakłażanek3'
+skilllist.appendChild(kolejnyli3)
+//21
