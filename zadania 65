@@ -41,3 +41,21 @@ const newbt = document.createElement('button')
 newbt.textContent = 'Logowanie'
 heder.appendChild(newbt)
 //18
+const tabelaa = document.querySelector('tbody')
+const newtr = document.createElement('tr')
+const newtd = document.createElement('td')
+newtd.textContent = '103'
+newtr.appendChild(newtd)
+const newtd2 = document.createElement('td')
+newtd2.textContent = 'Piotr'
+newtr.appendChild(newtd2)
+const newspan = document.createElement('span')
+newspan.textContent = 'Oczekujący'
+newtr.appendChild(newspan)
+const newtd3 = document.createElement('td')
+const newbtt = document.createElement('button')
+newbtt.textContent = 'Usuń'
+newtd3.appendChild(newbtt)
+newtr.appendChild(newtd3)
+tabelaa.appendChild(newtr)
+//19
