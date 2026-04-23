@@ -76,3 +76,23 @@ const kolejnyli3 = document.createElement('li')
 kolejnyli3.textContent = 'bakłażanek3'
 skilllist.appendChild(kolejnyli3)
 //21
+const krytyczny = document.querySelector('.notificatiob-item, .alert')
+const notlista = document.querySelector('#notification-list')
+const bladkopia = krytyczny.cloneNode(true)
+notlista.appendChild(bladkopia)
+//22
+const user = document.querySelector('label')
+const nowyspan = document.createElement('span')
+nowyspan.textContent = " (Wymagane)"
+user.appendChild(nowyspan)
+//23
+for(let element of sek){
+  element.innerHTML += '<hr>';
+}
+//24
+const futer = document.querySelector('#main-footer') 
+futer.innerHTML += '<a href="">Polityka prywatności</a>'
+//25
+const h1 = document.querySelector('h1')
+h1.textContent += '🚀'
+//26
