@@ -96,3 +96,39 @@ futer.innerHTML += '<a href="">Polityka prywatności</a>'
 const h1 = document.querySelector('h1')
 h1.textContent += '🚀'
 //26
+const role = document.querySelector('#role-select')
+const nowarola = document.createElement('option')
+nowarola.textContent = 'Administrator'
+role.appendChild(nowarola)
+//27
+const styll = document.createElement('style')
+const hed = document.querySelector('head')
+styll.textContent = 'body {background-color:lightgrey}'
+hed.appendChild(styll)
+//28
+const anuluj = document.createElement('button')
+const formularz = document.querySelector('form')
+anuluj.textContent = 'Anuluj'
+formularz.appendChild(anuluj)
+//29
+const nowydiv = document.createElement('div')
+const table = document.querySelector('table')
+nowydiv.className = 'alert-box'
+table.appendChild(nowydiv)
+table.insertBefore(nowydiv, table.firstChild)
+//30
+const marek = document.createElement('mark')
+const wokol = document.querySelector('#traversal-demo')
+marek.textContent = 'Szmaragd'
+wokol.appendChild(marek)
+//31
+const nowystyl = document.createElement('style')
+h1.appendChild(nowystyl)
+nowystyl.textContent = 'h1 {color:navy}' 
+//32
+const admonly = document.querySelector('.admin-only')
+admonly.setAttribute('style', 'display:block')
+//33
+const img = document.querySelector('#main-image')
+img.setAttribute('src', 'https://cdn-images.dzcdn.net/images/artist/f755bcad19948129e670598a52d3f874/1900x1900-000000-80-0-0.jpg')
+//34
