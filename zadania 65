@@ -132,3 +132,74 @@ admonly.setAttribute('style', 'display:block')
 const img = document.querySelector('#main-image')
 img.setAttribute('src', 'https://cdn-images.dzcdn.net/images/artist/f755bcad19948129e670598a52d3f874/1900x1900-000000-80-0-0.jpg')
 //34
+const notitem = document.querySelectorAll('.notification-item')
+for(let element of notitem){
+  element.classList.add('highlight')
+}
+//35
+const nowyholder = document.querySelector('#username')
+nowyholder.placeholder = 'Podaj imię.......'
+//36
+const wartoscdata = document.querySelector('[data-priority]')
+console.log(wartoscdata.dataset.priority)
+//37
+const zmianaczasu = document.querySelector('time')
+zmianaczasu.setAttribute('datatime', '28.04.2026')
+//38
+nowyholder.disabled = true
+//39
+const figaaa = document.querySelector('figcaption')
+figaaa.textContent = 'Nowy opis obrazka'
+//40
+table.setAttribute('style', 'border: 2px solid aqua')
+//41
+const kolejnylevel = document.querySelector('.level-3')
+kolejnylevel.classList.remove('nest')
+//42
+const sukces = document.querySelector('.notification-item success')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+css:
+.highlight{
+  background-color: rgb(255, 233, 212) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
