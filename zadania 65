@@ -157,7 +157,24 @@ const kolejnylevel = document.querySelector('.level-3')
 kolejnylevel.classList.remove('nest')
 //42
 const sukces = document.querySelector('.notification-item success')
-
+//43
+const nawigacja = document.querySelectorAll('.nav-list a')
+for(let element of nawigacja){
+  element.setAttribute('target', '_blank')
+}
+//44
+role.value = 'moderator'
+//45
+triprz
+if (triprz.classList.contains('active')){
+  console.log('active jest')
+} else {
+  console.log('active niema')
+}
+//46
+const usunpow = notlista.querySelector('li')
+notlista.removeChild(usunpow)
+//47
 
 
 
