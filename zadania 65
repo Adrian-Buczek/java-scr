@@ -175,7 +175,21 @@ if (triprz.classList.contains('active')){
 const usunpow = notlista.querySelector('li')
 notlista.removeChild(usunpow)
 //47
-
+const semdemo = document.querySelectorAll('#semantic-demo > *')
+for (let element of semdemo){
+  element.remove()
+}
+//48
+const dousuniecia = document.querySelector('[data-user-id="102]')
+dousuniecia.remove()
+//49
+const powiadom = document.querySelectorAll('.description')
+for(let element of powiadom){
+  element.remove(powiadom)
+}
+//50
+futer.remove()
+//51
 
 
 
